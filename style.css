@@ -565,3 +565,36 @@ footer{
     color: var(--secondary-color);
 }
 /* end of footer */
+@media (max-width: 768px) {
+    nav, .navbar { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        height: auto !important;
+        padding: 10px 0;
+    }
+
+    h1, .hero-text h1 {
+        font-size: 28px !important;
+    }
+    
+    h2 {
+        font-size: 22px !important;
+    }
+
+    .categories-container, .row, .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .category-item, img {
+        width: 90% !important;
+        margin: 10px auto;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+}
